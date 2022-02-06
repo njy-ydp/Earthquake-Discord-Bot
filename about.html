@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Drone Project</title>
+	<link rel="stylesheet" href="./style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<nav id="nav-title">
+			<div style="font-size: 1.5rem; margin: auto 1rem;"><a href="https://njy-ydp.github.io/">Jooyoung Noh</a></div>
+			<div class="material-icons md-light md-inactive" id="nav-icon">menu</div>
+		</nav>
+		<nav>
+			<ul id="nav-menu">
+				<li class="nav-item no-sub"><a href="https://njy-ydp.github.io/">Home</a></li>
+				<li class="nav-item"><a href="https://njy-ydp.github.io/Drone/material.html">Drone Project</a></li>
+				<li class="nav-item" id="nav-cur"><a href="./about.html" style="color: white;">Earthquake Discord Bot</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="mini-header">
+		<nav id="nav-menu-parent">
+			<ul>
+				<li class="nav-item no-sub"><a href="https://njy-ydp.github.io/">Home</a></li>
+				<li class="nav-item drone-btn"><a href="https://njy-ydp.github.io/Drone/material.html">Drone Project</a></li>
+				<li class="nav-item eqdb-btn" id="nav-cur-mini"><a href="./about.html" style="color: white;">Earthquake Discord Bot</a></li>
+			</ul>
+			<div class="menu-bg"></div>
+		</nav>
+		<nav id="drone-sub-parent">
+			<ul id="drone-sub">
+				<li id="drone-sub-title">Drone</li>
+				<li><a href="https://njy-ydp.github.io/Drone/material.html">재료</a></li>
+				<li><a href="https://njy-ydp.github.io/Drone/design.html">디자인</a></li>
+				<li><a href="https://njy-ydp.github.io/Drone/prototype.html">프로토타입</a></li>
+				<li><a href="https://njy-ydp.github.io/Drone/mainmodel.html">본 모델</a></li>
+				<li><a href="https://njy-ydp.github.io/Drone/references.html">참고자료</a></li>
+			</ul>
+		</nav>
+		<nav id="eqdb-sub-parent">
+			<ul id="eqdb-sub">
+				<li id="eqdb-sub-title">Earthquake Discord Bot</li>
+				<li><a href="./about.html" style="color: #5fa3e7;">봇 소개</a></li>
+				<li><a href="./dev.html">개발 과정</a></li>
+				<li></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div id="wrapper">
+        <div id="contents">
+            <ul id="sidebar">
+				<li id="sidebar-title">Earthquake Discord Bot</li>
+                <li><a href="./about.html" style="color: #5fa3e7;">봇 소개</a></li>
+                <li><a href="./dev.html">개발 과정</a></li>
+            </ul>
+            <div style="margin: 1rem">
+                <h2>봇 소개</h2>
+                <p>디스코드 지진알림봇은 기상청 지진정보 API를 이용해 지진에 대한 정보를 전달하는 디스코드 봇입니다.<br/>지진이 발생하면 실시간으로 정보를 전송하고, 명령어를 통해 최근 발생한 지진의 정보를 자세히 제공합니다.</p>
+				<h3>개발 언어 및 라이브러리</h3>
+				<p><a href="https://nodejs.org/">Node.js</a></p>
+				<p><a href="https://discord.js.org/">Discord.js</a></p>
+            </div>
+        </div>
+		<footer>
+			<div style="max-width: 1200px; margin: auto; display: flex; justify-content: space-between;">
+				<div style="margin: 1rem;">Copyright © Jooyoung Noh</div>
+				<a href="https://github.com/njy-ydp" style="height: 1.5rem; margin: 1rem;"><img src="./src/GitHub-Mark-Light-32px.png" style="height: 1.5rem;"></a>
+			</div>
+		</footer>
+	</div>
+	<script src="./script.js"></script>
+</body>
+
+</html>
